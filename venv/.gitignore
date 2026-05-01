@@ -1,0 +1,65 @@
+# --- Python Specific ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual Environments ---
+# Συνήθεις ονομασίες για virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Environment Variables (Πολύ σημαντικό!) ---
+# Ποτέ μην ανεβάζεις κωδικούς και API keys στο GitHub
+.env
+.flaskenv
+*.env.*
+
+# --- FastAPI / Testing ---
+.pytest_cache/
+.coverage
+htmlcov/
+.nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# --- Databases ---
+# Αν χρησιμοποιείς SQLite τοπικά για δοκιμές
+*.db
+*.sqlite3
+
+# --- IDEs / Editors ---
+# Ρυθμίσεις του Visual Studio Code ή PyCharm
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- User Specific (PDFs) ---
+# Εξαίρεση όλων των αρχείων PDF όπως ζήτησες
+*.pdf
